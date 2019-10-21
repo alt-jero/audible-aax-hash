@@ -1,0 +1,28 @@
+{
+  "name": "audible-aax-hash",
+  "version": "1.0.0",
+  "description": "Node.Js module for calculating an Audible aax file's hash based on the activation_bytes used to decode with ffmpeg",
+  "main": "src/AudibleHashOptimized.js",
+  "types": "src/AudibleHashOptimized.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^2.4.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alt-jero/audible-aax-hash.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Jeremy Rumble (Alt-Jero)",
+    "email": "jero.rumble@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alt-jero/audible-aax-hash/issues"
+  },
+  "homepage": "https://github.com/alt-jero/audible-aax-hash#readme"
+}
